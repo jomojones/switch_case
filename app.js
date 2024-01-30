@@ -1,174 +1,64 @@
-/*const employees =[
-    {name:'denis', Age:20, Salary:2000},
-    {name:'khushi', Age:30, Salary:3000},
-    {name:'John', Age:40, Salary:4000},
-    {name:'Ligare', Age:50, Salary:6000},
-    {name:'Kevin', Age:70, Salary:9000}
-]
-//higher order function
-function allsalaries(allparameter){
-    console.log(allparameter.Age)
-}
+//let cln = document.getElementsByClassName('three')
+//cln.style.color = "red"
 
-let all = employees.forEach(allsalaries)
+/*let hjj=document.querySelector("#mmm")
+hjj.style.backgroundColor='green'
 
-let firstname="Jomo"
-let last_name="Jones"
-let address="mainstreet"
-address="first_street"
+let qwe=document.querySelector("#uuu")
+qwe.style.backgroundColor='blue'
 
-console.log(firstname,last_name,address)
+let rrr=document.querySelector('#aaa')
+rrr.style.backgroundColor='red'
 
-let street= "Hurlingam"
-let country= "Jamaica"
+let nnn=document.querySelector(".three")
+nnn.style.backgroundColor='aqua'
 
-let fullMailingAddress= street + " "+country
+let ppp=document.querySelector(".thre")
+ppp.style.backgroundColor='orange'*/
 
-console.log(fullMailingAddress)
+//let hjj=document.getElementById('uuu')
+//hjj.style.color='red'
 
-let score1=20
-let score2=50
-let score3=90
+//let qwe=document.getElementById('aaa')
+//qwe.style.color='blue'
 
-let totalscore=score1+score2+score3
-let averagescore=totalscore/3
+//let baton=document.getElementById('ujj')
+//baton.style.color='green'
 
-console.log(totalscore)
-console.log(averagescore)
+//let hook=document.getElementsByClassName('three')[0]
+//hook.style.color='purple'
 
-let plates=20
-let people=7
+//let pok=document.getElementsByTagName('h4')[0]
+//pok.style.color='grey'
 
-let remaining_plates=plates-people
-remaining_plates++
-console.log(`There are ${remaining_plates} plates available`)
+/*const numbers = [1, 2, 3, 4, 5];
 
-let fruits =[
-    "oranges",
-    "watermelons",
-    "oranges",
-    "Santara",
-    "Grapes",
-    20,
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
 
-]
+console.log(sum);
+*/
 
-const first_fruit=fruits[0]
-fruits[3]='lemon'
-console.log(first_fruit,fruits)
+/*let hhk=document.getElementById('one')
+hhk.style.color='violet'
 
-function calculateTotal(subTotal,tax){
+let llo=document.getElementById('two')
+llo.style.color='pink'
 
-sum=subTotal+tax
-
-return sum
+let bbb=document.getElementById('three')
+bbb.style.color='indigo'*/
 
 
-}
-let car ={
-    make:"Wish",
-    model:"Toyota",
-    year:2001,
-    colours:["red","blue","black","green","yellow"],
-    hybrid:"yes/no",
-    drive:function(){
+//getelementbyclassname(nodelist--array like structure,indexes)
 
-        console.log("random text")
-    },
-    stop:function(){
+let headings=document.getElementsByClassName('one')
+headings[3].style.color='white'
+headings[3].style.backgroundColor='green'
 
-        console.log("more random text")
-    }
-
-
-}
-console.log(car.make)
-console.log(car.colours[0])
-console.log(car.drive())
-console.log(car.stop())
-
-let age=16
-if (age>=18) {
-    console.log("you are an adult")
-} else {
-    console.log("you are a child")
-
-}
-
-let person1={
-age:25,
-_status:"Tourist",
-
-}
-let person2={
-age:17,
-_status:"resident",
-
-}
-
-if(person1.age>18 && person1._status==="resident"){
-
-console.log("yes, you passed!")
-}else{
-    console.log("no, you failed!")
-}
-
-let age=16
-let fullname="Hogan"
-
-if (age==16 && fullname=="Hogan"){
-    console.log("You qualify to join the next class.")
-} else {
-console.log("NO!")
-}*/
- let dice=0
-
- switch(dice){
-    case 1:
-        console.log("You got one")
-       break;
-    case 2:
-        console.log("you got two") 
-       break;
-    case 3:
-        console.log("You got three")
-        break;   
-    case 4:
-        console.log("you got four")  
-        break;
-    case 5:
-        console.log("You got five")
-         break;      
-    case 6:
-        console.log("you got six")
-          break;
-    default:
-        console.log("Try again.")      
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let jjv=document.getElementById('button')
+jjv.style.backgroundColor='aqua'
+jjv.style.color='white'
 
 
 
