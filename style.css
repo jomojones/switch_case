@@ -1,2 +1,17 @@
+.first{
+    background-color: aqua;
+    font-size: large;
+    color: brown;
 
+}
+.second{
+background-color: gold;
+font-size: 32;
+color: orchid;
 
+}
+.btn{
+background-color: red;
+color: white;
+font-size: large;
+}
